@@ -18,10 +18,13 @@ header .date {
 }
 
 nav {
+    position: sticky;
+    top: 0em;
     height: 5%;
+    background: white;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-    
+    text-align: center;
 }
 
 main p {
@@ -39,15 +42,47 @@ ul li {
     padding-bottom: 10px;
 }
 
-section {
+li a:link {
+    text-decoration: none;
+}
+
+footer div {
+    text-align: center;
+}
+
+.more-articles {
+    text-align: center;
+}
+
+.more-articles section {
     display: inline-block;
-    width: 45%;
-    padding: 1px 1em;
+    width: 40%;
+    padding: 0px 1em;
     margin-right: auto;
     margin-left: auto;
 }
 
+.even-more-articles {
+    text-align: center;
+}
+
+.even-more-articles section {
+    display: inline-block;
+    width: 30%;
+    padding: 0px 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-link {
+    font-size: 11px;
+}
+
 section img {
+    width: 100%;
+}
+
+section p {
     width: 100%;
 }
 
@@ -56,7 +91,7 @@ ul li a:visited {
 }
 
 ul li a:hover {
-    color: #eee;
+    text-decoration: underline;
 }
 
 .newspaper-container {
@@ -70,6 +105,11 @@ ul li a:hover {
 }
 
 .more-articles {
+    padding: 2em 2em;
+}
+
+.even-more-articles {
+    border-top: 1px solid #eee;
     padding: 2em 2em;
 }
 
